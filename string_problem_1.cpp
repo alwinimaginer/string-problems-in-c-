@@ -1,4 +1,4 @@
-//  string problem 1
+//  string problem 1 for infosys
 
 #include<iostream>
 #include<string>
