@@ -3,18 +3,17 @@
 
 using namespace std;
 
-
 string longestPalindrome(string s) {
         
         int len = 0;
         int maxlen = 0;
         int right = 0;
         int left = 0;
-        int index = 0;
+        int indexmax = 0;
 
         for(int i = 0; i < s.length(); i ++){
 
-            // odd length
+            // odd length palindrome
             left = i;
             right = i;
 
@@ -22,13 +21,13 @@ string longestPalindrome(string s) {
                 len = right - left + 1;
                 if(len > maxlen){
                     maxlen = len;
-                    index = left;
+                    indexmax = left;
                 }
                 left --;
                 right ++;
             }
 
-            // even length
+            // even length palindrome
             left = i;
             right = i + 1;
             
@@ -36,7 +35,7 @@ string longestPalindrome(string s) {
                 len = right - left + 1;
                 if (len > maxlen){
                     maxlen = len;
-                    index = left;
+                    indexmax = left;
                 }
                 left --;
                 right ++;
@@ -44,7 +43,7 @@ string longestPalindrome(string s) {
 
 
         }
-        return s.substr(index,maxlen);
+        return s.substr(indexmax,maxlen);
     }
 
     int main(){
