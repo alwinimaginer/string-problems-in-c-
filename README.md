@@ -16,7 +16,7 @@
 
 1) #53   Maximum Subarray                 - completed
 2) #11   Container With Most Water        - completed
-3) #15   3Sum                             ← current
-4) #238  Product of Array Except Self
-5) #56   Merge Intervals
+3) #15   3Sum                             - completed
+4) #238  Product of Array Except Self     - completed
+5) #56   Merge Intervals                   ← current
 6) #33   Search in Rotated Array
