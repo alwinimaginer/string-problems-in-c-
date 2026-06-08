@@ -20,3 +20,11 @@
 4) #238  Product of Array Except Self     -                       Prefix + Suffix                     -          completed
 5) #56   Merge Intervals                  -                       Sorting + Greedy                    -          completed
 6) #33   Search in Rotated Array                                                                                 ← current
+
+                                                                   linked list
+
+| #206 Reverse Linked List                -                   Pointer manipulation                    -         ← current
+| #141 Linked List Cycle                  -                    Fast/Slow pointers                     -
+| #876 Middle of Linked List              -                    Pointer traversal                      - 
+| #19 Remove Nth Node From End            -                   Multi-pointer logic                     - 
+| #21 Merge Two Sorted Lists              -                       Node linking                        -     
