@@ -23,12 +23,8 @@
 
 
                                                                  bit manupilation
-1) # 191. Number of 1 Bits                -                      &, >>, Brian Kernighan               -          completed
-2) #
-3) #
-4) #
-5) #
-
+1) no of set bits                         -                   brian algorithm                         -          completed
+2) single number                          - 
    
                                                                    linked list
 
